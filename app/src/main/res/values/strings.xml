@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Buses List</string>
+
+    <string name="list">Список рейсов</string>
+    <string name="dep_time">Отправление: \u0020</string>
+    <string name="dep_place">с остановки: \u0020</string>
+    <string name="arr_time">Прибытие: \u0020</string>
+    <string name="arr_place">на остановку: \u0020</string>
+    <string name="route">Маршрут: \u0020</string>
+    <string name="price">Цена билета: \u0020</string>
+    <string name="bus_id">id автобуса: \u0020</string>
+    <string name="reservation">Зарезервировано мест: \u0020</string>
+    <string name="please_wait">Минуточку, обновляем базу</string>
+
+</resources>
