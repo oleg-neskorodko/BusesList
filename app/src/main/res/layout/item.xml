@@ -10,7 +10,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/id"
+            android:id="@+id/idTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -21,7 +21,7 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/fromCity"
+            android:id="@+id/fromCityTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -32,7 +32,7 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/tv11"
+            android:id="@+id/dashTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
@@ -40,7 +40,7 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/toCity"
+            android:id="@+id/toCityTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -58,7 +58,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/depTime1"
+            android:id="@+id/depTimeTextView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -67,7 +67,7 @@
             android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/depTime2"
+            android:id="@+id/depTimeTextView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -76,7 +76,7 @@
             android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/depTime3"
+            android:id="@+id/depTimeTextView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -92,7 +92,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/depPlace1"
+            android:id="@+id/depPlaceTextView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -101,7 +101,7 @@
             android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/depPlace2"
+            android:id="@+id/depPlaceTextView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -117,7 +117,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/arrTime1"
+            android:id="@+id/arrTimeTextView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -126,7 +126,7 @@
             android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/arrTime2"
+            android:id="@+id/arrTimeTextView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -135,7 +135,7 @@
             android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/arrTime3"
+            android:id="@+id/arrTimeTextView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -151,7 +151,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/arrPlace1"
+            android:id="@+id/arrPlaceTextView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -160,7 +160,7 @@
             android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/arrPlace2"
+            android:id="@+id/arrPlaceTextView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -176,7 +176,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/route1"
+            android:id="@+id/routeTextView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -185,7 +185,7 @@
             android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/route2"
+            android:id="@+id/routeTextView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -201,7 +201,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/price1"
+            android:id="@+id/priceTextView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -210,7 +210,7 @@
             android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/price2"
+            android:id="@+id/priceTextView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -219,7 +219,7 @@
             android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/busID1"
+            android:id="@+id/busIDTextView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -228,7 +228,7 @@
             android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/busID2"
+            android:id="@+id/busIDTextView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -244,7 +244,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/reservation1"
+            android:id="@+id/reservationTextView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"
@@ -253,7 +253,7 @@
             android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/reservation2"
+            android:id="@+id/reservationTextView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="5dp"

@@ -3,29 +3,40 @@ package com.example.awesome.buseslist;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.support.annotation.Nullable;
 
 public class DBHelper extends SQLiteOpenHelper {
 
-    public static final int DATABASE_VERSION = 1;
+    // читай "Модификаторы доступа Java"
+    // у тебя DATABASE_VERSION только тут используеться
+    // она не должна быть public, а только private
+    //TODO исправил
+    private static final int DATABASE_VERSION = 1;
+    private String keys[];
+    private int numberOfParameters = 17;
     public static final String DATABASE_NAME = "busesDb";
     public static final String TABLE_BUSES = "busesTable";
 
-    public static final String keyID = "_id";
+    private static final String keyID = "_id";
 
     public DBHelper( Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        keys = new String[numberOfParameters];
+        for (int i = 0; i < numberOfParameters; i++) {
+            keys[i] = "key" + i;
+        }
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
 
-        db.execSQL("create table " + TABLE_BUSES + "(" + keyID + " integer primary key, " + MainActivity.keys[0] + " integer, "
-                + MainActivity.keys[1] + " integer, " + MainActivity.keys[2] + " integer, " + MainActivity.keys[3] + " integer, " + MainActivity.keys[4] + " integer, "
-                + MainActivity.keys[5] + " integer, " + MainActivity.keys[6] + " integer, " + MainActivity.keys[7] + " integer, "
-                + MainActivity.keys[8] + " text, " + MainActivity.keys[9] + " text, " + MainActivity.keys[10] + " text, " + MainActivity.keys[11] + " text, "
-                + MainActivity.keys[12] + " text, " + MainActivity.keys[13] + " text, " + MainActivity.keys[14] + " text, " + MainActivity.keys[15] + " text, "
-                + MainActivity.keys[16] + " text" + ")");
+        // уже писал, никогда не завязывайся на активити
+        //TODO исправил
+        db.execSQL("create table " + TABLE_BUSES + "(" + keyID + " integer primary key, " + keys[0] + " integer, "
+                + keys[1] + " integer, " + keys[2] + " integer, " + keys[3] + " integer, " + keys[4] + " integer, "
+                + keys[5] + " integer, " + keys[6] + " integer, " + keys[7] + " integer, "
+                + keys[8] + " text, " + keys[9] + " text, " + keys[10] + " text, " + keys[11] + " text, "
+                + keys[12] + " text, " + keys[13] + " text, " + keys[14] + " text, " + keys[15] + " text, "
+                + keys[16] + " text" + ")");
     }
 
     @Override
